@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f9dce5">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="description" content="Для Венеры. Семь маленьких шагов к самому сладкому дню.">
+<title>Венера, тебе 16 ♡</title>
+<style>
+:root{--bg:#f9dce5;--paper:#fff9f5;--ink:#713f51;--muted:#996775;--pink:#e88da7;--line:#b46f87;--soft:#f7e9ed;--shadow:#e4b4c3;--brown:#865037}*{box-sizing:border-box}html{min-height:100%;background:var(--bg)}body{margin:0;color:var(--ink);font:15px/1.55 'Courier New',monospace;min-height:100svh;background-image:radial-gradient(#dca6b64d 1px,transparent 1px);background-size:12px 12px}button,input,textarea{font:inherit;color:inherit}button{cursor:pointer;touch-action:manipulation}button:disabled{cursor:default}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #9e576f;outline-offset:4px}button,input,textarea{-webkit-tap-highlight-color:transparent}button{border-radius:0}button:active:not(:disabled){translate:0 2px}svg{shape-rendering:crispEdges}.sprite-defs{position:absolute;width:0;height:0;overflow:hidden}.sky{position:fixed;inset:0;pointer-events:none;overflow:hidden}.cloud{position:absolute;width:170px;color:#fff8f6;filter:drop-shadow(0 4px 0 #e7bdca)}.cloud:nth-child(1){left:-45px;top:22%}.cloud:nth-child(2){right:-50px;top:12%;width:210px}.cloud:nth-child(3){left:7%;bottom:13%;width:135px}.cloud:nth-child(4){right:6%;bottom:23%;width:120px}.spark{position:absolute;color:#c58097;font-size:25px}.spark:nth-of-type(5){top:17%;left:22%}.spark:nth-of-type(6){top:42%;right:16%}.spark:nth-of-type(7){bottom:23%;left:21%}.spark:nth-of-type(8){bottom:8%;right:26%}.outer{position:relative;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px 18px 22px}.masthead{width:min(100%,446px);display:flex;justify-content:space-between;gap:12px;font-size:10px;letter-spacing:2px;margin-bottom:15px}.masthead span:last-child{letter-spacing:1px}.window{width:min(100%,446px);background:var(--paper);border:2px solid var(--line);box-shadow:6px 6px 0 var(--shadow),8px 8px 0 var(--line);position:relative}.titlebar{height:37px;background:#f4c8d6;display:flex;align-items:center;justify-content:space-between;padding:0 13px;border-bottom:2px solid var(--line);font-size:11px;letter-spacing:1px}.titlebar .controls{display:flex;gap:5px}.controls i{display:block;width:8px;height:8px;border:1px solid var(--line);background:#fff4f4}.progress-wrap{padding:19px 25px 0;display:flex;align-items:center;gap:15px}.progress{display:flex;flex:1;gap:5px}.progress span{height:5px;flex:1;background:#eddae0}.progress span.done{background:var(--pink)}#stepLabel{font-size:10px;letter-spacing:1px;white-space:nowrap}.screen{padding:22px 29px 26px;text-align:center;min-height:490px;animation:appear .25s ease-out}.screen[hidden]{display:none}.eyebrow{text-transform:uppercase;letter-spacing:2.5px;font-size:10px;margin:0 0 9px;color:var(--muted)}h1,h2{font-family:'Courier New',monospace;letter-spacing:-1.3px;font-size:31px;line-height:1.16;margin:0 0 13px;font-weight:900}h1 span{color:#c76f8b}p{margin:0 0 18px}.sub{font-size:12px;line-height:1.65;color:var(--muted)}.hero-art{height:98px;display:flex;align-items:center;justify-content:center;position:relative;margin:3px 0 15px}.heart-art{width:70px;height:65px;color:var(--pink);filter:drop-shadow(4px 4px 0 #f5dce4);animation:float 3s ease-in-out infinite}.hero-art .tiny{position:absolute;font-size:18px;color:#c78399}.hero-art .tiny:first-child{left:26%;top:17px}.hero-art .tiny:last-child{right:24%;bottom:15px}.pin{display:flex;justify-content:center;gap:10px;margin:19px 0 10px}.pin span{display:flex;align-items:center;justify-content:center;width:43px;height:45px;background:#fff;border:1px solid #d8aabb;border-bottom:3px solid #d8aabb;font-size:23px}.pin span.filled{background:#fce8ee;border-color:var(--line)}.status{font-size:11px;min-height:19px;margin:0 0 12px;color:#a1556e}.keypad{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;max-width:246px;margin:auto}.keypad button{height:40px;background:#f9edf0;border:1px solid #dcb4c2;box-shadow:0 2px 0 #e6c7d1;font-size:19px}.keypad button:hover{background:#f5d6e1}.keypad .empty{visibility:hidden}.keypad .delete{font-size:17px}.micro{font-size:10px;color:var(--muted);margin:19px 0 0;line-height:1.6}.window-foot{border-top:1px dashed #dfbbc8;margin:0 23px;padding:11px 0;display:flex;justify-content:space-between;font-size:9px;letter-spacing:1px;color:var(--muted)}.outside-foot{font-size:10px;letter-spacing:1px;text-align:center;color:#a97485;margin:22px 0 0}.btn{min-height:46px;border:1.5px solid var(--line);background:#edacc0;box-shadow:3px 3px 0 #ce8fa5;padding:12px 19px;font-size:11px;font-weight:bold;letter-spacing:1px;display:inline-flex;align-items:center;justify-content:center;gap:9px;text-decoration:none}.btn:hover{background:#f0b9cb}.btn.secondary{background:#fff9f5;box-shadow:3px 3px 0 #ebd7df}.btn.full{width:100%}.btn:disabled{opacity:.45;box-shadow:none}.btn[hidden]{display:none}.balloons{display:grid;grid-template-columns:repeat(5,1fr);gap:9px 3px;margin:21px -10px 10px}.balloon{background:none;border:0;padding:0;position:relative;height:76px;display:flex;justify-content:center;align-items:flex-start;transition:opacity .2s}.balloon svg{width:53px;height:70px;color:#eaa3b8;filter:drop-shadow(2px 2px 0 #e9ccd6)}.balloon:nth-child(3n) svg{color:#c8b9d9}.balloon:nth-child(3n + 2) svg{color:#eac5a8}.balloon span{position:absolute;top:13px;color:#754957;font-weight:bold;font-size:16px}.balloon.popped svg{opacity:.13;filter:none}.balloon.popped span{color:#ad657e;top:20px}.phrase{font-size:22px;min-height:59px;line-height:1.4;font-weight:bold;letter-spacing:-1px;margin:12px -5px}.phrase span{color:#ecdae1}.phrase span.revealed{color:var(--ink)}.choices{position:relative;height:166px;margin:25px 0 8px}.choices .yes{position:absolute;left:14px;top:12px;width:115px}.choices .no{position:absolute;right:14px;top:12px;min-width:100px;transition:top .15s,left .15s}.big-heart{width:100px;height:90px;color:#e598b0;margin:22px auto}.mood{width:100%;min-height:118px;resize:vertical;border:1px solid #d5a6b7;background:#fff;padding:14px;line-height:1.6;font-size:13px;margin:5px 0 6px}.mood::placeholder{color:#bc95a3}.mood-meta{display:flex;justify-content:space-between;margin:0 0 16px;font-size:10px;color:var(--muted)}.mood-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:7px;margin:0 0 18px}.chip{background:#f9e8ee;border:1px solid #e6c7d2;font-size:10px;padding:7px 9px}.game-top{display:flex;justify-content:space-between;align-items:center;font-size:11px;margin:17px 0 10px}.game-top strong{background:#f7e1e9;padding:4px 9px}.game{position:relative;border:2px solid #d8a8b9;background:#fcebf0;overflow:hidden}.game canvas{display:block;width:100%;height:auto;image-rendering:pixelated;touch-action:none}.game-overlay{position:absolute;inset:0;background:#fff9f5e8;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:15px;gap:11px}.game-overlay[hidden]{display:none}.game-overlay p{margin:0;font-size:12px}.game-overlay .dog{width:120px;height:65px}.game-controls{display:flex;gap:12px;justify-content:center;margin:13px 0}.game-controls button{width:84px;min-height:44px;touch-action:none;user-select:none;-webkit-user-select:none}.game-tip{font-size:10px;color:var(--muted);min-height:16px}.letters{display:flex;gap:16px;justify-content:center;margin:29px 0 23px}.letter{background:transparent;border:0;padding:0;width:44%;position:relative}.letter svg{width:100%;max-width:130px;filter:drop-shadow(3px 4px 0 #edd3dc)}.letter strong{display:block;font-size:12px;letter-spacing:.5px;margin-top:13px}.letter small{display:block;font-size:9px;color:var(--muted);margin-top:5px}.letter:hover svg{transform:translateY(-4px)}.letter .read-badge{position:absolute;right:3px;top:-8px;background:#fff9f5;border:1px solid #bc8195;padding:0 5px;font-size:12px}.letter .read-badge[hidden]{display:none}.letter-note{border:1px dashed #d8adbd;padding:12px;font-size:11px;line-height:1.7;background:#fdf0f4;margin:0 0 20px}.letter-note p{margin:0}.candle-input{display:flex;justify-content:center;align-items:center;gap:12px;margin:23px 0 18px}.candle-input input{width:92px;min-height:56px;text-align:center;font-size:28px;border:1px solid var(--line);background:#fff}.candle-input button{width:43px;min-height:43px;border:1px solid #d9aebe;background:#f8e3eb;font-size:23px}.cake-scene{position:relative;height:222px;display:flex;justify-content:center;align-items:center;margin:8px -10px 7px}.cake-art{width:215px;height:190px;overflow:visible}.cake-number{font-size:18px;fill:#fff9f5;font-weight:bold;letter-spacing:1px}.cake-dog{width:100px;height:55px;position:absolute;bottom:2px;right:7px;animation:jump 1s steps(3,end) infinite}.wish{font-size:12px;line-height:1.8;margin:12px 0 17px}.confetti{pointer-events:none;position:fixed;inset:0;overflow:hidden;z-index:5}.confetti i{position:absolute;top:-15px;width:7px;height:10px;animation:fall 3.8s linear forwards}.back-link{display:block;border:0;background:none;text-decoration:underline;text-underline-offset:4px;margin:19px auto 0;font-size:10px;color:var(--muted);padding:8px}.modal{border:2px solid var(--line);background:var(--paper);color:var(--ink);width:min(90vw,410px);padding:0;box-shadow:6px 6px 0 #b87c94;max-height:85svh}.modal::backdrop{background:#713f5166;backdrop-filter:blur(3px)}.modal .titlebar button{border:0;background:none;padding:4px;font-size:19px;line-height:1}.letter-body{padding:26px 25px;text-align:left;font-size:13px;line-height:1.9;white-space:pre-line}.letter-body h3{margin:0 0 15px;font-size:23px;line-height:1.2}.letter-body .signature{text-align:right;color:#b56581;margin:22px 0 0}.draft-note{font-size:9px;letter-spacing:1px;color:var(--muted);margin:0 0 15px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}[hidden]{display:none!important}@keyframes float{50%{transform:translateY(-6px)}}@keyframes jump{50%{transform:translateY(-17px)}}@keyframes fall{to{transform:translateY(110vh) rotate(480deg)}}@keyframes appear{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}@media(min-width:760px){.outer{padding:36px}.screen{min-height:500px}.cloud:nth-child(1){width:240px;left:5%}.cloud:nth-child(2){right:3%;top:15%;width:260px}}@media(max-width:380px){.outer{padding:20px 14px}.screen{padding:18px 19px 20px}.progress-wrap{padding:16px 19px 0}h1,h2{font-size:28px}.masthead{font-size:9px;letter-spacing:1px}.window{box-shadow:4px 4px 0 var(--shadow),6px 6px 0 var(--line)}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.confetti{display:none}}
+h1{font-size:28px;letter-spacing:-1.4px}h1:focus,h2:focus{outline:none}.screen[data-step="0"] .hero-art{height:70px;margin-bottom:10px}.screen[data-step="0"] .sub{margin-bottom:14px}.screen[data-step="0"] .pin{margin-top:14px}.keypad button{height:44px}
+
+/* Gentle motion stays inside stable touch targets. */
+.cloud{animation:cloud-drift 9s ease-in-out infinite alternate}.cloud:nth-child(even){animation-delay:-5s;animation-direction:alternate-reverse}.spark,.hero-art .tiny{animation:twinkle 3.5s ease-in-out infinite}.spark:nth-child(even){animation-delay:-1.8s}
+.big-heart{animation:heartbeat 2.8s ease-in-out infinite}.pin .filled{animation:pop-in .25s ease-out}.progress span{transition:background .4s}.screen{animation:appear .4s ease-out}
+.balloon:not(.popped) svg,.balloon:not(.popped) span{animation:balloon-drift var(--sway,3s) ease-in-out infinite;animation-delay:var(--delay,0s)}.balloon.popped svg{animation:balloon-pop .3s ease-out forwards}.balloon.popped span{animation:appear .4s ease-out;color:#c8a0af}.phrase span{display:inline-block}.phrase span.revealed{animation:letter-land .45s ease-out}
+.letter svg{animation:envelope-bob 4s ease-in-out infinite}.letter:nth-child(2) svg{animation-delay:-2s}.modal[open]{animation:letter-open .35s ease-out}.game-overlay .dog{animation:float 2s ease-in-out infinite}.score-pop{animation:letter-land .32s ease-out}
+.cake-scene{isolation:isolate}.cake-art{animation:cake-arrive .65s cubic-bezier(.2,.8,.3,1.2);transform-origin:50% 85%}.flame{transform-box:fill-box;transform-origin:center bottom;animation:candle-flicker .85s ease-in-out infinite alternate;animation-delay:var(--flicker,0s)}.flame.extinguishing{animation:flame-out .3s ease-in forwards}
+.cake-scene.blowing .cake-art{animation:cake-wiggle .75s ease-in-out}.cake-scene.celebrating .cake-dog{animation:happy-dog .6s ease-in-out infinite}.cake-scene.celebrating:before{content:'';position:absolute;inset:5px 0 0;background:radial-gradient(ellipse,#f6d5a673,transparent 65%);z-index:-1;animation:appear .7s ease-out}
+.smoke{opacity:0;animation:smoke-rise 1.5s ease-out forwards;pointer-events:none}.wind{position:absolute;inset:0;pointer-events:none;overflow:hidden}.wind i{position:absolute;left:-28%;top:28%;width:55px;height:3px;background:#d6b8cc;box-shadow:12px 6px 0 #ead4e0;animation:wind-sweep .65s ease-out both}.wind i:nth-child(2){top:36%;animation-delay:.12s}.wind i:nth-child(3){top:22%;animation-delay:.25s}
+.fx-layer{position:fixed;inset:0;pointer-events:none;z-index:6;overflow:hidden}.pixel-burst{position:absolute;width:5px;height:5px;background:var(--pink);animation:pixel-burst .55s ease-out forwards}.flying-letter{position:absolute;font-size:20px;font-weight:bold;color:#ad5979;animation:letter-flight .55s ease-in-out forwards}.wish-heart{position:absolute;color:#cc7e9c;font-size:20px;animation:wish-rise 1.8s ease-out forwards}
+@keyframes cloud-drift{to{transform:translate(14px,-7px)}}@keyframes twinkle{50%{opacity:.35;transform:scale(.75)}}@keyframes heartbeat{0%,40%,100%{transform:scale(1)}45%{transform:scale(1.08)}55%{transform:scale(1)}62%{transform:scale(1.06)}}@keyframes pop-in{from{transform:scale(.8)}70%{transform:scale(1.06)}}
+@keyframes balloon-drift{0%,100%{transform:translate(-2px,2px) rotate(-3deg)}50%{transform:translate(2px,-5px) rotate(3deg)}}@keyframes balloon-pop{30%{transform:scale(1.18);opacity:.8}100%{transform:scale(.35);opacity:0}}@keyframes letter-land{0%{transform:translateY(6px) scale(.65)}60%{transform:translateY(-5px) scale(1.2)}100%{transform:none}}@keyframes envelope-bob{50%{transform:translateY(-5px) rotate(2deg)}}@keyframes letter-open{from{opacity:0;transform:translateY(20px) rotate(-3deg) scale(.92)}to{opacity:1;transform:none}}
+@keyframes cake-arrive{from{opacity:0;transform:translateY(25px) scale(.8)}to{opacity:1;transform:none}}@keyframes candle-flicker{to{transform:scale(.85,1.13) rotate(7deg);fill:#f4ca87}}@keyframes flame-out{45%{transform:skewX(35deg) scale(1.5,.65);opacity:.8}100%{transform:translateX(7px) scale(.1);opacity:0}}@keyframes cake-wiggle{20%{transform:rotate(-3deg)}45%{transform:rotate(3deg)}70%{transform:rotate(-1deg)}100%{transform:none}}@keyframes smoke-rise{10%{opacity:.7}100%{opacity:0;transform:translate(13px,-38px)}}@keyframes wind-sweep{0%{opacity:0;transform:translateX(0)}25%{opacity:.8}100%{opacity:0;transform:translateX(410px)}}@keyframes happy-dog{50%{transform:translateY(-28px) rotate(-7deg)}}
+@keyframes pixel-burst{to{transform:translate(var(--dx),var(--dy)) rotate(90deg);opacity:0}}@keyframes letter-flight{to{transform:translate(var(--dx),var(--dy)) scale(.75);opacity:0}}@keyframes wish-rise{0%{opacity:0;transform:translateY(0) scale(.5)}20%{opacity:1}100%{opacity:0;transform:translate(var(--dx),-150px) rotate(var(--tilt)) scale(1.2)}}
+@media(prefers-reduced-motion:reduce){.fx-layer,.wind,.smoke{display:none}*,*::before,*::after{animation:none!important;transition:none!important}}
+
+</style>
+</head>
+<body>
+<svg class="sprite-defs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+<symbol id="heart" viewBox="0 0 16 15"><path fill="currentColor" d="M2 1h4v2h4V1h4v2h2v6h-2v2h-2v2h-2v2H6v-2H4v-2H2V9H0V3h2z"/><path fill="#ffffff80" d="M3 3h3v2H3z"/></symbol>
+<symbol id="cloud" viewBox="0 0 64 28"><path fill="currentColor" d="M0 15h6V9h10V4h9V0h15v5h9v5h9v6h6v9H0z"/><path fill="#efd1dd" d="M0 25h64v3H0z"/></symbol>
+<symbol id="balloon" viewBox="0 0 32 46"><path fill="currentColor" d="M8 0h16v3h5v5h3v16h-3v5h-8v4H11v-4H3v-5H0V8h3V3h5z"/><path fill="#ffffff88" d="M5 7h4v9H5z"/><path fill="none" stroke="#c197a6" d="M16 33v6h4v6"/></symbol>
+<symbol id="dog" viewBox="0 0 64 32"><path fill="#865037" d="M7 15H3V9H0v12h7v5h5v6h6v-6h25v6h6v-6h4V15h8V6h-4V2H45v4h-5v9z"/><path fill="#ac7650" d="M11 17h31v6H11zM47 6h10v10H47z"/><path fill="#603b2c" d="M41 5h8v16h-6v-5h-2zM54 9h3v3h-3zM58 13h6v4h-6zM12 29h6v3h-6zM43 29h6v3h-6z"/><path fill="#f4b1c4" d="M42 21h11v3H42z"/></symbol>
+<symbol id="envelope" viewBox="0 0 80 62"><path fill="#f6d9e4" stroke="#b47990" d="M1 10h78v50H1z"/><path fill="#fcedf3" stroke="#b47990" d="m1 10 39 28 39-28M1 60l29-26m49 26L50 34"/><path fill="#e6a0b8" d="M34 25h5v3h3v-3h5v3h3v7h-3v3h-3v3h-7v-3h-3v-3h-3v-7h3z"/></symbol>
+</defs></svg>
+<div class="sky" aria-hidden="true"><svg class="cloud"><use href="#cloud"/></svg><svg class="cloud"><use href="#cloud"/></svg><svg class="cloud"><use href="#cloud"/></svg><svg class="cloud"><use href="#cloud"/></svg><span class="spark">✦</span><span class="spark">+</span><span class="spark">+</span><span class="spark">✦</span></div>
+<main class="outer">
+<header class="masthead"><span>A LITTLE BIRTHDAY ADVENTURE</span><span>♡ LEVEL 16</span></header>
+<div class="window">
+<div class="titlebar"><span>♡ for_venera.exe</span><span class="controls" aria-hidden="true"><i></i><i></i><i></i></span></div>
+<div class="progress-wrap"><div class="progress" aria-label="Прогресс поздравления"></div><span id="stepLabel">01 / 07</span></div>
+<section class="screen" data-step="0" aria-labelledby="title0">
+<div class="hero-art" aria-hidden="true"><span class="tiny">✦</span><svg class="heart-art"><use href="#heart"/></svg><span class="tiny">+</span></div>
+<p class="eyebrow">доступ только имениннице</p><h1 id="title0" tabindex="-1">Венера,<br>это всё <span>для тебя.</span></h1>
+<p class="sub">Внутри кое-что очень тёплое.<br>Введи свой год рождения ♡</p>
+<div class="pin" aria-label="Введённый год" aria-live="polite"><span>·</span><span>·</span><span>·</span><span>·</span></div>
+<p class="status" id="pinStatus" role="status">Маленький секрет из четырёх цифр</p>
+<div class="keypad" aria-label="Клавиатура года рождения"><button data-digit="1">1</button><button data-digit="2">2</button><button data-digit="3">3</button><button data-digit="4">4</button><button data-digit="5">5</button><button data-digit="6">6</button><button data-digit="7">7</button><button data-digit="8">8</button><button data-digit="9">9</button><span class="empty"></span><button data-digit="0">0</button><button class="delete" id="deleteDigit" aria-label="Удалить последнюю цифру">⌫</button></div>
+<p class="micro">сделано с любовью, специально к твоим 16</p>
+</section>
+<section class="screen" data-step="1" hidden aria-labelledby="title1"><p class="eyebrow">01 · немного праздничного шума</p><h2 id="title1" tabindex="-1">Лопни все шарики!</h2><p class="sub">В каждом — кусочек поздравления.<br>Нажимай и собирай его по буквам.</p><div class="phrase" id="phrase" aria-label="Собираем поздравление"></div><div class="balloons" id="balloons"></div><p class="status" id="balloonStatus" role="status">0 / 14 шариков</p><button class="btn full" id="balloonNext" disabled>ДАЛЕЕ <span aria-hidden="true">→</span></button></section>
+<section class="screen" data-step="2" hidden aria-labelledby="title2"><p class="eyebrow">02 · важный вопрос</p><svg class="big-heart" aria-hidden="true"><use href="#heart"/></svg><h2 id="title2" tabindex="-1">Ну что, ты рада?</h2><p class="sub">Это только начало.<br>Самое милое ещё впереди ♡</p><div class="choices"><button class="btn yes" id="yes">ДА ♡</button><button class="btn secondary no" id="no">НЕТ</button></div><p class="status" id="noStatus" role="status">Кажется, одна кнопка немного стесняется…</p></section>
+<section class="screen" data-step="3" hidden aria-labelledby="title3"><div class="hero-art" aria-hidden="true"><svg class="heart-art" style="width:48px"><use href="#heart"/></svg></div><p class="eyebrow">03 · момент для себя</p><h2 id="title3" tabindex="-1">Как ты сейчас?</h2><p class="sub">Одно слово или целая история.<br>Здесь можно быть любой.</p><label for="mood" class="sr-only">Твоё настроение</label><textarea class="mood" id="mood" maxlength="240" placeholder="Сегодня я чувствую…"></textarea><div class="mood-meta"><span>Только здесь, только для тебя</span><span id="moodCount">0 / 240</span></div><div class="mood-chips"><button class="chip">счастлива ♡</button><button class="chip">в предвкушении ✦</button><button class="chip">всё и сразу</button></div><button class="btn full" id="moodNext" disabled>СОХРАНИТЬ МОМЕНТ →</button></section>
+<section class="screen" data-step="4" hidden aria-labelledby="title4"><p class="eyebrow">04 · любовь нужно поймать</p><h2 id="title4" tabindex="-1">Маленькая такса.<br>Большая любовь.</h2><p class="sub">Помоги ей собрать 10 сердечек!</p><div class="game-top"><span>♡ ПОЙМАНО</span><strong id="score" aria-live="polite">0 / 10</strong></div><div class="game"><canvas id="gameCanvas" width="320" height="230" aria-label="Игра: двигай таксу кнопками влево и вправо, чтобы ловить падающие сердца"></canvas><div class="game-overlay" id="gameOverlay"><svg class="dog" aria-hidden="true"><use href="#dog"/></svg><p id="gameMessage">Твой хвостатый напарник готов!</p><button class="btn" id="startGame">ИГРАТЬ ♡</button></div></div><div class="game-controls"><button class="btn secondary" id="left" aria-label="Двигаться влево">◀</button><button class="btn secondary" id="right" aria-label="Двигаться вправо">▶</button></div><p class="game-tip" id="gameTip">Удерживай ◀ ▶ или стрелки на клавиатуре</p><button class="btn full" id="gameNext" hidden>ДАЛЕЕ →</button></section>
+<section class="screen" data-step="5" hidden aria-labelledby="title5"><p class="eyebrow">05 · тебе письмо. даже два.</p><h2 id="title5" tabindex="-1">Самое тёплое —<br>внутри.</h2><p class="sub">От тех, кто очень рад,<br>что однажды появилась ты.</p><div class="letters"><button class="letter" data-letter="nastya"><span class="read-badge" hidden>✓</span><svg aria-hidden="true"><use href="#envelope"/></svg><strong>От Насти</strong><small>нажми, чтобы открыть</small></button><button class="letter" data-letter="arina"><span class="read-badge" hidden>✓</span><svg aria-hidden="true"><use href="#envelope"/></svg><strong>От Арины</strong><small>нажми, чтобы открыть</small></button></div><div class="letter-note"><p>Некоторые слова хочется<br>сохранить поближе к сердцу ♡</p></div><p class="status" id="lettersStatus">Открой любой конверт</p><button class="btn full" id="cakeNext" hidden>НАКОНЕЦ ТОРТИК →</button></section>
+<section class="screen" data-step="6" hidden aria-labelledby="title6"><p class="eyebrow">06 · самое сладкое</p><h2 id="title6" tabindex="-1">Время загадывать<br>желание.</h2><div id="candleForm"><div class="hero-art" aria-hidden="true"><span style="font-size:65px">🎂</span></div><p class="sub">Сколько свечей будет на торте?</p><label for="candles" class="sr-only">Количество свечей от 1 до 99</label><div class="candle-input"><button id="minus" aria-label="На одну свечу меньше">−</button><input id="candles" type="number" inputmode="numeric" min="1" max="99" step="1" value="16"><button id="plus" aria-label="На одну свечу больше">+</button></div><p class="status" id="candleStatus" role="status">Каждая свеча — маленькая мечта</p><button class="btn full" id="makeCake">ПУСТЬ БУДЕТ ТОРТ! ♡</button></div><div id="cakeFinal" hidden><div class="cake-scene"><svg class="cake-art" viewBox="0 0 180 160" aria-label="Праздничный торт"><g id="candleArt"></g><path fill="#e7c0cd" d="M10 144h160v7H10z"/><path fill="#d58aa4" d="M24 91h132v52H24z"/><path fill="#f2b5cb" d="M29 99h122v35H29z"/><path fill="#fff0df" d="M24 84h132v19h-12v7h-12v-7h-12v7h-12v-7H96v7H84v-7H72v7H60v-7H48v7H36v-7H24z"/><path fill="#d58aa4" d="M40 55h100v30H40z"/><path fill="#f6c4d5" d="M45 60h90v22H45z"/><path fill="#fff0df" d="M40 49h100v15h-10v6h-10v-6h-10v6h-10v-6H90v6H80v-6H70v6H60v-6H50v6H40z"/><path fill="#e898b2" d="M65 115h50v17H65z"/><text class="cake-number" id="cakeNumber" x="90" y="129" text-anchor="middle">16</text></svg><svg class="cake-dog" aria-label="Прыгающая такса"><use href="#dog"/></svg></div><p class="wish" id="birthdayWish" role="status">С 16-летием, Венера!<br>Пусть всё самое нежное сбывается ♡</p><button class="btn full" id="blowCandles">ЗАГАДАЛА. ЗАДУТЬ СВЕЧИ ✦</button><p class="micro" id="finalMood"></p><button class="back-link" id="backLetters">Вернуться к письмам</button></div></section>
+<footer class="window-foot"><span>НАСТЯ + АРИНА → ВЕНЕРА</span><span>100% LOVE</span></footer>
+</div><p class="outside-foot">маленький мир для большого дня ♡</p>
+</main>
+<dialog class="modal" id="letterModal" aria-labelledby="letterTitle"><div class="titlebar"><span id="letterFilename">letter.txt</span><button id="closeLetter" aria-label="Закрыть письмо">×</button></div><div class="letter-body"><p class="draft-note">ПОЗДРАВЛЕНИЕ-ЗАГОТОВКА</p><h3 id="letterTitle">Венера, с днём рождения!</h3><div id="letterText"></div><p class="signature" id="letterSignature"></p></div></dialog>
+<div class="confetti" id="confetti" aria-hidden="true"></div><div class="fx-layer" id="fxLayer" aria-hidden="true"></div>
+<script>
+'use strict';
+// Замените эти две заготовки настоящими письмами. Никакого сервера не требуется.
+const LETTERS = {
+ nastya: { name: 'Настя', text: 'Венера, с твоими 16! ♡\n\nПусть рядом будут люди, с которыми можно смеяться до слёз, говорить обо всём и просто быть собой.\n\nЖелаю тебе смело мечтать, пробовать новое и замечать маленькие радости каждый день. Пусть этот год подарит много тёплых воспоминаний!\n\nОбнимаю крепко!' },
+ arina: { name: 'Арина', text: 'С днём рождения, Венера! ♡\n\nВпереди столько всего: новые места, любимые песни, неожиданные встречи и мечты, которые однажды станут планами.\n\nПусть у тебя будет достаточно смелости выбирать своё и достаточно тепла, чтобы чувствовать себя любимой. Ты заслуживаешь самых счастливых дней!\n\nПусть сегодня исполнится маленькое чудо.' }
+};
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+let step = 0, pin = '', pinTimer, noCount = 0, mood = '', lastLetter;
+const progress = $('.progress');
+for(let i=0;i<7;i++) progress.append(document.createElement('span'));
+function go(next){
+ if(step===4) stopGame();
+ step=next; $$('.screen').forEach((s,i)=>s.hidden=i!==step);
+ $$('.progress span').forEach((s,i)=>s.classList.toggle('done',i<=step));
+ progress.setAttribute('aria-label',`Шаг ${step+1} из 7`);
+ $('#stepLabel').textContent=`0${step+1} / 07`;
+ if(step===4) drawGame();
+ if(step===6) $('#finalMood').textContent=mood ? `Твоё настроение сегодня: «${mood}»` : '';
+ const heading=$(`#title${step}`); heading.focus({preventScroll:true});
+ window.scrollTo({top:0,behavior:'instant'});
+}
+function renderPin(){ $$('.pin span').forEach((s,i)=>{s.textContent=pin[i]||'·';s.classList.toggle('filled',!!pin[i]);}); }
+function digit(value){
+ if(step!==0||pin.length===4)return;
+ clearTimeout(pinTimer);pin+=value;renderPin();
+ if(pin.length===4){
+  if(pin==='2010'){$('#pinStatus').textContent='Это точно ты! Добро пожаловать ♡';pinTimer=setTimeout(()=>go(1),450);}
+  else{$('#pinStatus').textContent='Кажется, не тот год. Попробуй ещё ♡';pinTimer=setTimeout(()=>{pin='';renderPin();},750);}
+ }
+}
+function deleteDigit(){clearTimeout(pinTimer);pin=pin.slice(0,-1);renderPin();$('#pinStatus').textContent='Маленький секрет из четырёх цифр';}
+$$('[data-digit]').forEach(b=>b.onclick=()=>digit(b.dataset.digit));$('#deleteDigit').onclick=deleteDigit;
+const chars=Array.from('Happybirthday🎂');let popped=new Set();
+chars.forEach((char,i)=>{
+ const letter=document.createElement('span');letter.textContent=char;letter.id=`char${i}`;$('#phrase').append(letter);if(i===4)$('#phrase').append(document.createTextNode(' '));
+});
+const balloonOrder=chars.map((_,i)=>i);
+for(let j=balloonOrder.length-1;j>0;j--){const k=Math.floor(Math.random()*(j+1));[balloonOrder[j],balloonOrder[k]]=[balloonOrder[k],balloonOrder[j]];}
+if(balloonOrder.every((n,i)=>n===i))balloonOrder.push(balloonOrder.shift());
+balloonOrder.forEach(i=>{
+ const char=chars[i],letter=$(`#char${i}`),b=document.createElement('button');
+ b.className='balloon';b.dataset.index=i;b.setAttribute('aria-label',`Лопнуть шарик: ${char}`);
+ b.style.setProperty('--delay',`${-Math.random()*3}s`);b.style.setProperty('--sway',`${2.5+Math.random()*1.5}s`);
+ b.innerHTML='<svg aria-hidden="true"><use href="#balloon"/></svg><span aria-hidden="true"></span>';b.querySelector('span').textContent=char;
+ b.onclick=()=>{
+  if(popped.has(i))return;popped.add(i);flyLetter(b,letter,char);b.classList.add('popped');b.disabled=true;
+  letter.classList.add('revealed');$('#balloonStatus').textContent=`${popped.size} / ${chars.length} шариков`;
+  if(popped.size===chars.length){$('#balloonStatus').textContent='Happy birthday, Венера! ♡';$('#balloonNext').disabled=false;confetti();}
+ };
+ $('#balloons').append(b);
+});
+$('#balloonNext').onclick=()=>go(2);$('#yes').onclick=()=>go(3);
+$('#no').onclick=()=>{
+ if(noCount>=3){go(3);return;}noCount++;
+ const b=$('#no');const area=$('.choices');
+ const poses=[[.65,91],[.02,92],[.47,83]];const [fraction,y]=poses[noCount-1];
+ if(noCount===3){b.textContent='ЛАДНО ДА';$('#noStatus').textContent='Ну вот, теперь все согласны ♡';}
+ else $('#noStatus').textContent=noCount===1?'Ой, куда это она?':'Кажется, ответ уже почти готов…';
+ b.style.right='auto';b.style.left=`${Math.max(0,(area.clientWidth-b.offsetWidth)*fraction)}px`;b.style.top=`${y}px`;
+};
+function updateMood(){mood=$('#mood').value;$('#moodCount').textContent=`${mood.length} / 240`;$('#moodNext').disabled=!mood.trim();}
+$('#mood').oninput=updateMood;$$('.chip').forEach(b=>b.onclick=()=>{$('#mood').value=b.textContent;updateMood();});$('#moodNext').onclick=()=>{mood=mood.trim();if(mood)go(4);};
+// Игра: координаты логические, скорость не зависит от частоты экрана.
+const canvas=$('#gameCanvas'),ctx=canvas.getContext('2d');
+let dogFacing=1,walkTime=0,walking=false,catchFx=[];
+let dogX=130, hearts=[],score=0,running=false,raf=0,lastTime=0,spawnIn=0;
+const keys=new Set(), pointers=new Map();
+function heart(x,y,size){ctx.fillStyle='#dd83a3';const p=[[1,0],[2,0],[4,0],[5,0],[0,1],[1,1],[2,1],[3,1],[4,1],[5,1],[6,1],[0,2],[1,2],[2,2],[3,2],[4,2],[5,2],[6,2],[1,3],[2,3],[3,3],[4,3],[5,3],[2,4],[3,4],[4,4],[3,5]];for(const [a,b]of p)ctx.fillRect(x+a*size,y+b*size,size,size);ctx.fillStyle='#f8d7e3';ctx.fillRect(x+size,y+size,size,size);}
+function drawDog(x,y){
+ ctx.save();ctx.translate(Math.round(x)+(dogFacing<0?66:0),y);ctx.scale(dogFacing,1);
+ const gait=walking&&!reducedMotion.matches?Math.round(Math.sin(walkTime*22)*2):0;
+ const rect=(color,a,b,w,h)=>{ctx.fillStyle=color;ctx.fillRect(a,b,w,h);};
+ rect('#875039',6,11,48,17);rect('#ac7650',10,13,34,10);rect('#875039',0,3+gait,5,17);rect('#875039',3,15,7,7);rect('#875039',45,0,17,20);rect('#603b2c',41,2,8,22);rect('#ad7754',52,5,11,12);rect('#603b2c',60,12,6,5);rect('#3c2b27',56,6,3,3);rect('#875039',10,25,7,9+gait);rect('#875039',43,25,7,9-gait);rect('#eeafc1',44,21,11,3);ctx.restore();
+}
+function drawGame(){ctx.clearRect(0,0,320,230);ctx.fillStyle='#fcebf0';ctx.fillRect(0,0,320,230);ctx.fillStyle='#fff9f5';[[23,34,42],[212,66,50],[132,22,29]].forEach(([x,y,w])=>{ctx.fillRect(x,y,w,9);ctx.fillRect(x+8,y-7,w-18,7);});ctx.fillStyle='#e5c5d1';ctx.fillRect(0,213,320,2);ctx.fillStyle='#f5dce5';ctx.fillRect(0,215,320,15);for(let x=6;x<320;x+=18){ctx.fillStyle='#d8a1b4';ctx.fillRect(x,221,3,3);}hearts.forEach(h=>heart(h.x,h.y,3));drawDog(dogX,180);for(const fx of catchFx){ctx.globalAlpha=Math.max(0,1-fx.age/.55);heart(fx.x-7,fx.y-fx.age*50,2);ctx.fillStyle='#a3637c';ctx.font='bold 12px monospace';ctx.fillText('+1',fx.x+12,fx.y-fx.age*50+8);}ctx.globalAlpha=1;}
+function stopGame(){running=false;walking=false;cancelAnimationFrame(raf);keys.clear();pointers.clear();}
+function frame(t){if(!running)return;const dt=lastTime?Math.min((t-lastTime)/1000,.05):0;lastTime=t;
+ if(!document.hidden){const dirs=new Set([...keys,...pointers.values()]);const move=(dirs.has('right')?1:0)-(dirs.has('left')?1:0);walking=move!==0;if(move)dogFacing=move;walkTime+=dt;catchFx=catchFx.filter(fx=>(fx.age+=dt)<.55);dogX=Math.max(0,Math.min(254,dogX+move*210*dt));
+ spawnIn-=dt;if(spawnIn<=0){hearts.push({x:10+Math.random()*279,y:-20});spawnIn=.95;}
+ for(let i=hearts.length-1;i>=0;i--){const h=hearts[i];h.y+=73*dt;if(h.y+18>=180&&h.y<=208&&h.x+21>=dogX+3&&h.x<=dogX+64){hearts.splice(i,1);score++;if(!reducedMotion.matches)catchFx.push({x:h.x,y:174,age:0});$('#score').classList.remove('score-pop');void $('#score').offsetWidth;$('#score').classList.add('score-pop');$('#score').textContent=`${score} / 10`;if(score>=10){stopGame();hearts=[];drawGame();$('#gameMessage').textContent='Все 10 сердечек — для тебя!';$('#startGame').hidden=true;$('#gameOverlay').hidden=false;$('#gameNext').hidden=false;$('#gameTip').textContent='Хвостатая миссия выполнена ♡';confetti();return;}}else if(h.y>230)hearts.splice(i,1);}
+ drawGame();}raf=requestAnimationFrame(frame);}
+$('#startGame').onclick=()=>{score=0;dogX=130;dogFacing=1;walkTime=0;walking=false;catchFx=[];hearts=[];spawnIn=.3;lastTime=0;running=true;$('#score').textContent='0 / 10';$('#gameOverlay').hidden=true;raf=requestAnimationFrame(frame);};
+for(const dir of ['left','right']){const b=$('#'+dir);b.onpointerdown=e=>{if(!running)return;e.preventDefault();b.setPointerCapture(e.pointerId);pointers.set(e.pointerId,dir);dogFacing=dir==='left'?-1:1;dogX=Math.max(0,Math.min(254,dogX+(dir==='left'?-9:9)));};b.onpointerup=b.onpointercancel=b.onlostpointercapture=e=>pointers.delete(e.pointerId);}
+window.addEventListener('keydown',e=>{if($('#letterModal').open)return;if(step===0){if(/^\d$/.test(e.key)){e.preventDefault();digit(e.key);}if(e.key==='Backspace'){e.preventDefault();deleteDigit();}}if(step===4&&['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();dogFacing=e.key==='ArrowLeft'?-1:1;keys.add(e.key==='ArrowLeft'?'left':'right');}});
+window.addEventListener('keyup',e=>{if(e.key==='ArrowLeft')keys.delete('left');if(e.key==='ArrowRight')keys.delete('right');});window.addEventListener('blur',()=>{keys.clear();pointers.clear();});document.addEventListener('visibilitychange',()=>{keys.clear();pointers.clear();lastTime=0;});
+$('#gameNext').onclick=()=>go(5);
+$$('[data-letter]').forEach(b=>b.onclick=()=>{const letter=LETTERS[b.dataset.letter];lastLetter=b;$('#letterFilename').textContent=`письмо от ${letter.name==='Настя'?'Насти':'Арины'}.txt`;$('#letterText').textContent=letter.text;$('#letterSignature').textContent=`С любовью, ${letter.name} ♡`;$('#letterModal').showModal();b.querySelector('.read-badge').hidden=false;b.querySelector('small').textContent='прочитано ♡';$('#cakeNext').hidden=false;$('#lettersStatus').textContent='Можно прочитать второе или отправиться к торту';});
+$('#closeLetter').onclick=()=>$('#letterModal').close();$('#letterModal').addEventListener('click',e=>{if(e.target===$('#letterModal')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close();}});$('#letterModal').addEventListener('close',()=>lastLetter?.focus());
+$('#cakeNext').onclick=()=>go(6);$('#backLetters').onclick=()=>go(5);
+$('#minus').onclick=()=>$('#candles').value=Math.max(1,(Number($('#candles').value)||16)-1);$('#plus').onclick=()=>$('#candles').value=Math.min(99,(Number($('#candles').value)||16)+1);
+$('#makeCake').onclick=()=>{const n=Number($('#candles').value);if(!Number.isInteger(n)||n<1||n>99){$('#candleStatus').textContent='Введи целое число от 1 до 99 ♡';$('#candles').focus();return;}$('#candleForm').hidden=true;$('#cakeFinal').hidden=false;$('#cakeNumber').textContent=n;$('#candleArt').replaceChildren();
+ for(let i=0;i<n;i++){const col=i%20,row=Math.floor(i/20),count=Math.min(20,n-row*20),x=count===1?88:43+col*(91/(count-1)),y=28-row*4;const g=document.createElementNS('http://www.w3.org/2000/svg','g');g.dataset.x=x;g.dataset.y=y;g.style.setProperty('--flicker',`${-Math.random()}s`);g.innerHTML=`<path fill="${i%2?'#bc9dc7':'#dc8eaa'}" d="M${x} ${y}h3v${49-y}h-3z"/><path class="flame" fill="#eeb878" d="M${x} ${y-9}h3v3h2v5h-6v-5h1z"/>`;$('#candleArt').append(g);}
+ $('#birthdayWish').textContent='С 16-летием, Венера! Пусть всё самое нежное сбывается ♡';confetti();};
+let candleState='ready';
+$('#blowCandles').onclick=()=>{
+ const button=$('#blowCandles'),scene=$('.cake-scene');
+ if(candleState==='blowing')return;
+ if(candleState==='blown'){
+  candleState='ready';scene.classList.remove('celebrating');
+  $$('.flame').forEach(f=>{f.style.display='';f.classList.remove('extinguishing');});
+  button.textContent='ЗАГАДАЛА. ЗАДУТЬ СВЕЧИ ✦';$('#birthdayWish').textContent='Ещё одна свеча — ещё одна мечта. Загадывай ♡';return;
+ }
+ candleState='blowing';button.disabled=true;button.textContent='Ф-У-У-У… ✦';scene.classList.add('blowing');
+ const wind=document.createElement('div');wind.className='wind';wind.setAttribute('aria-hidden','true');wind.innerHTML='<i></i><i></i><i></i>';scene.append(wind);
+ const flames=$$('.flame'),duration=reducedMotion.matches?0:850;
+ flames.forEach((f,i)=>setTimeout(()=>{
+  f.classList.add('extinguishing');
+  setTimeout(()=>{f.style.display='none';if(!reducedMotion.matches&&i%Math.max(1,Math.ceil(flames.length/20))===0){
+   const g=f.parentElement,x=Number(g.dataset.x),y=Number(g.dataset.y),smoke=document.createElementNS('http://www.w3.org/2000/svg','g');smoke.classList.add('smoke');smoke.innerHTML=`<path fill="#c8b2c4" d="M${x} ${y-5}h4v4h-4zM${x+3} ${y-11}h4v4h-4zM${x-1} ${y-17}h3v3h-3z"/>`;g.append(smoke);setTimeout(()=>smoke.remove(),1600);
+  }},reducedMotion.matches?0:280);
+ },reducedMotion.matches?0:i/Math.max(1,flames.length-1)*450));
+ setTimeout(()=>{
+  wind.remove();scene.classList.remove('blowing');scene.classList.add('celebrating');candleState='blown';
+  button.disabled=false;button.textContent='ЕЩЁ ОДНО ЖЕЛАНИЕ ↺';$('#birthdayWish').textContent='Желание отправлено во Вселенную. С 16-летием, Венера! ♡';confetti();wishHearts(scene);
+ },duration);
+};
+function transient(className,x,y,life){
+ const el=document.createElement('span');el.className=className;el.style.left=x+'px';el.style.top=y+'px';$('#fxLayer').append(el);setTimeout(()=>el.remove(),life);return el;
+}
+function flyLetter(from,to,char){
+ if(reducedMotion.matches)return;
+ const a=from.getBoundingClientRect(),b=to.getBoundingClientRect(),x=a.left+a.width/2-6,y=a.top+14;
+ const el=transient('flying-letter',x,y,600);el.textContent=char;el.style.setProperty('--dx',`${b.left-x}px`);el.style.setProperty('--dy',`${b.top-y}px`);
+ for(let i=0;i<8;i++){const p=transient('pixel-burst',x+4,y+6,600),angle=i*Math.PI/4;p.style.setProperty('--dx',`${Math.cos(angle)*32}px`);p.style.setProperty('--dy',`${Math.sin(angle)*32}px`);}
+}
+function wishHearts(scene){
+ if(reducedMotion.matches||step!==6)return;const r=scene.getBoundingClientRect();
+ for(let i=0;i<13;i++){const el=transient('wish-heart',r.left+r.width/2+(Math.random()-.5)*160,r.top+r.height*.55,2300);el.textContent=i%3?'♡':'✦';el.style.setProperty('--dx',`${(Math.random()-.5)*110}px`);el.style.setProperty('--tilt',`${(Math.random()-.5)*45}deg`);el.style.animationDelay=`${Math.random()*.35}s`;}
+}
+let confettiTimer;
+function confetti(){const container=$('#confetti');clearTimeout(confettiTimer);container.replaceChildren();if(reducedMotion.matches)return;for(let i=0;i<32;i++){const p=document.createElement('i');p.style.left=Math.random()*100+'%';p.style.background=['#d993ad','#b6a2c7','#e7bc8c','#f7f0df'][i%4];p.style.animationDelay=Math.random()*.65+'s';p.style.animationDuration=2+Math.random()*2+'s';container.append(p);}confettiTimer=setTimeout(()=>container.replaceChildren(),4800);}
+go(0);
+</script>
+</body>
+</html>
